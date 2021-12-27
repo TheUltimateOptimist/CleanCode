@@ -60,9 +60,11 @@ class _HomePageState extends State<HomePage> {
 
 class Summary {
   static final List<String> chapters = [
-    "Naming"
+    "Naming",
+    "Functions"
   ];
   static final Map<int, List<String>> content = {
-    0: ["intention revealing names", "avoiding disinformation", "using pronouncable names", "using searchable names", "avoid encodings", "use noun/nounphrases for classes", "use verb/verbphrases for methods", "pick one word per concept", "do not use same word for two purposes", "use technical jargon"]
+    0: ["intention revealing names", "avoiding disinformation", "using pronouncable names", "using searchable names", "avoid encodings", "use noun/nounphrases for classes", "use verb/verbphrases for methods", "pick one word per concept", "do not use same word for two purposes", "use technical jargon"],
+    1: ["very short(20 lines at max)", "identation level no greater than 1 or 2", "should do only one thing", "only one level of abstraction", "switch statements are ok if they appear only once", "descriptive name", "as little arguments as possible", "do not pass booleans as arguments", "no side effects",  "avoid output arguments", "exceptions are better than returning error codes", "error handling is one thing!", "dont repeat yourself"]
   };
 }
