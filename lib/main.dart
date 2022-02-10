@@ -74,6 +74,6 @@ class Summary {
     2: ["comments do not make up for bad code", "rather explain yourself through code", "comment to explain intent", "can be used for clarification", "as warning of consequences", "TODO comments are reasonable", "for amplification", "comments should not force you to look at other code parts", "avoid redundant comments", "comments should only describe code next to it", "should be self-explaining"],
     3: ["one way should be consistenly applied","seperate code parts by blank lines","code belonging to each other should be dense","calling functions above called functions","surround assignment operators, +, - with whitespace","use identation for blocks"],
     4: ["hide implementation details","","","","","","","","","","","",""],
-    5: ["","","","","","","","","","","","",""],
+    5: ["use exceptions instead of return Codes","write try catch block first","use unchecked exceptions","provide context with exceptions","wrap third party apis","let a class handle special cases(Special Case Pattern)","do not return null","do not pass null","seperate error handling from main logic",],
   };
 }
