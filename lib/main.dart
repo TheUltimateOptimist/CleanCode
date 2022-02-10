@@ -66,6 +66,8 @@ class Summary {
     "Formatting",
     "Objects/Datastructures",
     "Error Handling",
+    "Boundaries",
+    "Unit Tests"
 
   ];
   static final Map<int, List<String>> content = {
@@ -75,5 +77,7 @@ class Summary {
     3: ["one way should be consistenly applied","seperate code parts by blank lines","code belonging to each other should be dense","calling functions above called functions","surround assignment operators, +, - with whitespace","use identation for blocks"],
     4: ["hide implementation details","","","","","","","","","","","",""],
     5: ["use exceptions instead of return Codes","write try catch block first","use unchecked exceptions","provide context with exceptions","wrap third party apis","let a class handle special cases(Special Case Pattern)","do not return null","do not pass null","seperate error handling from main logic",],
+    6: ["write 'learning' tests for third party apis","abstract third party code away",],
+    7: ["test code is as important as production code","keep tests clean","tests should be readable","create own domain specific testing language","minimize number of asserts per test","tests should be fast","tests be independent from each other","repeatable","self-validating","should be written just before production code",],
   };
 }
