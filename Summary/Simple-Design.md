@@ -20,9 +20,9 @@ The biggest cost of a software project is in long term maintenance. Therefore th
   - easier to write 
   - easier to name
   - easier to understand
-- using standard nomenclature
+- using standard nomenclature   
   When implementing Design Patterns for example using their known names in class names can be helpful for understanding
-- well-written unit tests
+- well-written unit tests    
   Normally you should be able to get a good idea of what a class or function is doing just looking at its unit tests
 - Take the time to refactor
 
