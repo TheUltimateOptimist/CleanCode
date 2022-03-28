@@ -27,7 +27,7 @@ The biggest cost of a software project is in long term maintenance. Therefore th
 - Take the time to refactor
 
 ## Rule 4: Minimal number of classes and methods
-Concepts explained like explained above or like the SRP principle can be taken too far. Try to keep the overall system small while also keeping classes and function small. Important: This Rule is the leas important one of the 4 Rules.
+Concepts like explained above or like the SRP principle can be taken too far. Try to keep the overall system small while also keeping classes and function small. Important: This Rule is the leas important one of the 4 Rules.
 
 
 
